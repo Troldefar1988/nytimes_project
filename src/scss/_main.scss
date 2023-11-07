@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px){
+main {
+    background-color: solid #f0f3f4;
+}
+}
+
+hr {
+    margin-top: 0.2em;
+}
+
+

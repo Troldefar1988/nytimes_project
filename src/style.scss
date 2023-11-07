@@ -1,11 +1,16 @@
 @use "./scss/reset";
 @use "./scss/header";
 @use "./scss/primaryMenu";
+@use "./scss/main";
+@use "./scss/fonts";
+@use "./scss/top_buttons";
+@use "./scss/search_bar";
+
 :root {
-	--mainBg: salmon;
+	--mainBg: #f0f3f4;
 }
 
-$light-text: moccasin;
+$light-text: #1b1c20;
 
 body {
 	background-color: var(--mainBg);

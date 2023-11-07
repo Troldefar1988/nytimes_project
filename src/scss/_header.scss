@@ -1,4 +1,15 @@
 header {
-	background-color: green;
-	height: 8em;
+	background-color: solid #f0f3f4;
+	margin-top: 2em;
+}
+
+.header_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	gap: 6em;
+}
+
+.hr_top {
+	margin-top: 2em;
 }
